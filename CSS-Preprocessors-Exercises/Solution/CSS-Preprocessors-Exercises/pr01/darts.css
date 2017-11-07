@@ -1,0 +1,44 @@
+main {
+  width: 60%;
+  margin: 50px auto;
+  text-align: center; }
+  main h1 {
+    font-size: 40px;
+    font-weight: lighter;
+    font-family: 'Arial', sans-serif; }
+
+.darts .points {
+  color: white;
+  font-size: 30px;
+  font-family: 'Arial', sans-serif; }
+
+.darts div {
+  margin: auto; }
+
+.ten-points {
+  background-color: #A52A2A;
+  border-radius: 50%;
+  width: 600px;
+  height: 600px; }
+  .ten-points .twenty-points {
+    background-color: #0000FF;
+    border-radius: 50%;
+    width: 500px;
+    height: 500px; }
+  .ten-points .thirty-points {
+    background-color: #ADFF2F;
+    border-radius: 50%;
+    width: 400px;
+    height: 400px; }
+  .ten-points .fifty-points {
+    background-color: #FFFF00;
+    border-radius: 50%;
+    width: 300px;
+    height: 300px; }
+  .ten-points .hundred-points {
+    background-color: #FF0000;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px; }
+
+/*# sourceMappingURL=darts.css.map */

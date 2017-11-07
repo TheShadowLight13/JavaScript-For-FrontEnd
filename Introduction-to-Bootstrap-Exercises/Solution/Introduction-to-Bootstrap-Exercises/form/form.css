@@ -1,0 +1,43 @@
+@import "https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css";
+@import "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+
+.form-group {
+    position: relative;
+    font-size: 15px;
+}
+
+.form-group span {
+    position: absolute;
+    top: 7px;
+    right: 25px;
+}
+
+.form-group input {
+    padding-right: 30px;
+}
+
+.container {
+    padding-top: 50px;
+}
+
+.form-top .new-user{
+    background-color: #428BCA;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.form-top .login {
+    background-color: #D9534F;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.form-top .new-user, .form-top .login {
+    color: white;
+    font-size: 15px;
+    padding: 10px 15px;
+}
+
+.form-top p {
+    padding-top: 15px;
+}

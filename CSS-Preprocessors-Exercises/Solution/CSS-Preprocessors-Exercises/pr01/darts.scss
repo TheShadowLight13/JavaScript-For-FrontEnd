@@ -1,0 +1,55 @@
+main {
+  width: 60%;
+  margin: 50px auto;
+  text-align: center;
+
+  h1 {
+    font-size: 40px;
+    font-weight: lighter;
+    font-family: 'Arial', sans-serif;
+  }
+}
+
+.darts{
+  .points {
+    color: white;
+    font-size: 30px;
+    font-family: 'Arial', sans-serif;
+  }
+}
+
+.darts {
+  div {
+    margin: auto;
+  }
+}
+
+$circle-radius: 50%;
+@mixin circle-style($background-color, $border-radius, $width, $height) {
+  background-color: $background-color;
+  border-radius: $border-radius;
+  width: $width;
+  height: $height;
+}
+
+.ten-points {
+  @include circle-style(#A52A2A, $circle-radius, 600px, 600px);
+
+  .twenty-points {
+    @include circle-style(#0000FF, $circle-radius, 500px, 500px);
+  }
+
+  .thirty-points {
+    @include circle-style(#ADFF2F, $circle-radius, 400px, 400px);
+  }
+
+  .fifty-points {
+    @include circle-style(#FFFF00, $circle-radius, 300px, 300px);
+  }
+
+  .hundred-points {
+    @include circle-style(#FF0000, $circle-radius, 200px, 200px);
+  }
+}
+
+

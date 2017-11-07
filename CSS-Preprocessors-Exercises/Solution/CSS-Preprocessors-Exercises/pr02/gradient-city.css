@@ -1,0 +1,197 @@
+body {
+  background: linear-gradient(#8F8F8F 30%, white 70%);
+  font-family: 'Arial', sans-serif;
+  text-align: center; }
+
+#wrapper {
+  width: 95%;
+  margin: 0 auto;
+  background-color: white;
+  border: double 4px black;
+  padding: 15px; }
+
+#wrapper > header {
+  border: double 4px black; }
+  #wrapper > header h1 {
+    color: gray;
+    font-size: 40px; }
+  #wrapper > header nav ul {
+    display: flex;
+    justify-content: center; }
+    #wrapper > header nav ul li {
+      border: double 4px black;
+      padding: 5px 15px;
+      margin-right: 50px; }
+    #wrapper > header nav ul li:hover {
+      background: linear-gradient(gray, white); }
+    #wrapper > header nav ul li:hover a {
+      color: white; }
+    #wrapper > header nav ul li a {
+      color: black; }
+
+a {
+  text-decoration: none; }
+
+ul {
+  list-style: none; }
+
+.linear {
+  border: double 4px black;
+  padding: 10px;
+  margin-top: 20px; }
+
+.linear article {
+  border: double 4px black;
+  border-width: 1px;
+  margin-top: 10px; }
+
+section > header h1, footer h3 {
+  text-decoration: underline;
+  font-size: 20px;
+  font-weight: lighter;
+  color: gray; }
+
+.linear article header {
+  font-weight: 100;
+  color: gray;
+  font-size: 10px; }
+
+.radial {
+  margin-top: 20px;
+  border: double 4px black; }
+
+footer {
+  margin-top: 20px;
+  border: double 4px black; }
+
+footer li a {
+  color: gray; }
+
+.innerContainer div {
+  display: inline-block; }
+
+.vertical-gradient .purple {
+  width: 150px;
+  height: 150px;
+  border-radius: 20px;
+  background: linear-gradient(to bottom, #5C335C, white); }
+.vertical-gradient .blue {
+  width: 150px;
+  height: 150px;
+  border-radius: 20px;
+  background: linear-gradient(to bottom, #1B1BB8, white); }
+.vertical-gradient .green {
+  width: 150px;
+  height: 150px;
+  border-radius: 20px;
+  background: linear-gradient(to bottom, #265126, white); }
+.vertical-gradient .yellow {
+  width: 150px;
+  height: 150px;
+  border-radius: 20px;
+  background: linear-gradient(to bottom, #F6F61C, white); }
+.vertical-gradient .orange {
+  width: 150px;
+  height: 150px;
+  border-radius: 20px;
+  background: linear-gradient(to bottom, #EEA224, white); }
+.vertical-gradient .red {
+  width: 150px;
+  height: 150px;
+  border-radius: 20px;
+  background: linear-gradient(to bottom, #D72B2B, white); }
+
+.horizontal-gradient .purple {
+  width: 150px;
+  height: 150px;
+  border-radius: 20px;
+  background: linear-gradient(to right, #5C335C, white); }
+.horizontal-gradient .blue {
+  width: 150px;
+  height: 150px;
+  border-radius: 20px;
+  background: linear-gradient(to right, #1B1BB8, white); }
+.horizontal-gradient .green {
+  width: 150px;
+  height: 150px;
+  border-radius: 20px;
+  background: linear-gradient(to right, #265126, white); }
+.horizontal-gradient .yellow {
+  width: 150px;
+  height: 150px;
+  border-radius: 20px;
+  background: linear-gradient(to right, #F6F61C, white); }
+.horizontal-gradient .orange {
+  width: 150px;
+  height: 150px;
+  border-radius: 20px;
+  background: linear-gradient(to right, #EEA224, white); }
+.horizontal-gradient .red {
+  width: 150px;
+  height: 150px;
+  border-radius: 20px;
+  background: linear-gradient(to right, #D72B2B, white); }
+
+.diagonal-gradient .purple {
+  width: 150px;
+  height: 150px;
+  border-radius: 20px;
+  background: linear-gradient(to bottom right, #5C335C, white); }
+.diagonal-gradient .blue {
+  width: 150px;
+  height: 150px;
+  border-radius: 20px;
+  background: linear-gradient(to bottom right, #1B1BB8, white); }
+.diagonal-gradient .green {
+  width: 150px;
+  height: 150px;
+  border-radius: 20px;
+  background: linear-gradient(to bottom right, #265126, white); }
+.diagonal-gradient .yellow {
+  width: 150px;
+  height: 150px;
+  border-radius: 20px;
+  background: linear-gradient(to bottom right, #F6F61C, white); }
+.diagonal-gradient .orange {
+  width: 150px;
+  height: 150px;
+  border-radius: 20px;
+  background: linear-gradient(to bottom right, #EEA224, white); }
+.diagonal-gradient .red {
+  width: 150px;
+  height: 150px;
+  border-radius: 20px;
+  background: linear-gradient(to bottom right, #D72B2B, white); }
+
+.radial .purple {
+  width: 150px;
+  height: 150px;
+  border-radius: 20px;
+  background: radial-gradient(circle, #5C335C, white); }
+.radial .blue {
+  width: 150px;
+  height: 150px;
+  border-radius: 20px;
+  background: radial-gradient(circle, #1B1BB8, white); }
+.radial .green {
+  width: 150px;
+  height: 150px;
+  border-radius: 20px;
+  background: radial-gradient(circle, #265126, white); }
+.radial .yellow {
+  width: 150px;
+  height: 150px;
+  border-radius: 20px;
+  background: radial-gradient(circle, #F6F61C, white); }
+.radial .orange {
+  width: 150px;
+  height: 150px;
+  border-radius: 20px;
+  background: radial-gradient(circle, #EEA224, white); }
+.radial .red {
+  width: 150px;
+  height: 150px;
+  border-radius: 20px;
+  background: radial-gradient(circle, #D72B2B, white); }
+
+/*# sourceMappingURL=gradient-city.css.map */

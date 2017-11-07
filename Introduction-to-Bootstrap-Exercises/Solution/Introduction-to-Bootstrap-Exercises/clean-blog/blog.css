@@ -1,0 +1,45 @@
+@import "https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css";
+
+header {
+    background: url("images/desk.jpg") center no-repeat;
+    background-size: cover;
+    min-height: 580px;
+    color: white;
+    position: relative;
+    z-index: 0;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    z-index: -1;
+}
+
+.nav-link {
+    color: white;
+    text-transform: uppercase;
+}
+
+.nav-link:hover {
+    color: white;
+}
+
+.header-info h1 {
+    font-size: 80px;
+}
+
+.header-info p {
+    font-weight: 100;
+    font-size: 25px;
+}
+
+.list-inline-item {
+    padding: 15px;
+}
+
+
+
