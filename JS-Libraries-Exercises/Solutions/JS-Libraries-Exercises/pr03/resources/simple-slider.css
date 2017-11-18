@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #3498DB;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 40px;
+    width: 70%;
+    color: #333;
+}
+
+.autoplay {
+    text-align: center;
+}
+
+.car {
+    height: 400px;
+    padding: 15px;
+    margin: 20px;
+    background: white;
+    border-bottom: 8px solid lightgray;
+    box-sizing: border-box;
+}
+
+.car header {
+    text-transform: uppercase;
+}
+
+article img {
+    width: 100%;
+    border-radius: 50%;
+}

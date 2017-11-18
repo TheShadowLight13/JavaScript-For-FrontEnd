@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="resources/simple-accordion.css">
+    <title>Simple Accordion</title>
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <div class="col-md-4 col-md-offset-4 header">
+            <h1 class="text-center">A Simple Accordion</h1>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-4 col-md-offset-4">
+            <ul class="nav nav-stacked" id="accordion1">
+                <li class="panel">
+                    <a data-toggle="collapse" data-parent="#accordion1" href="#firstLink">Item 1</a>
+                    <ul id="firstLink" class="collapse">
+                        <li><a href="#">Option 1</a></li>
+                        <li><a href="#">Option 2</a></li>
+                        <li><a href="#">Option 3</a></li>
+                    </ul>
+                </li>
+                <li class="panel">
+                    <a data-toggle="collapse" data-parent="#accordion1" href="#secondLink">Item 2</a>
+                    <ul id="secondLink" class="collapse">
+                        <li><a href="#">Option 1</a></li>
+                        <li><a href="#">Option 2</a></li>
+                        <li><a href="#">Option 3</a></li>
+                    </ul>
+                </li>
+                <li class="panel">
+                    <a data-toggle="collapse" data-parent="#accordion1" href="#thirdLink">Item 3</a>
+                    <ul id="thirdLink" class="collapse">
+                        <li><a href="#">Option 1</a></li>
+                        <li><a href="#">Option 2</a></li>
+                        <li><a href="#">Option 3</a></li>
+                    </ul>
+                </li>
+                <li class="panel">
+                    <a data-toggle="collapse" data-parent="#accordion1" href="#fourthLink">Item 4</a>
+                    <ul id="fourthLink" class="collapse">
+                        <li><a href="#">Option 1</a></li>
+                        <li><a href="#">Option 2</a></li>
+                        <li><a href="#">Option 3</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"
+        integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+        crossorigin="anonymous">
+</script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+</html>

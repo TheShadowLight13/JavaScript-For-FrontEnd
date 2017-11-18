@@ -1,0 +1,31 @@
+.header {
+    color: #733838;
+    margin-bottom: 20px;
+}
+
+.nav.nav-stacked {
+    font-size: 20px;
+}
+
+.nav > li.panel > a:focus, .nav > li.panel > a:hover {
+    background-color: #733838;
+}
+
+li.panel {
+    background-color: #733838;
+}
+
+li.panel a {
+    color: white;
+    text-decoration: none;
+}
+
+li.panel ul {
+    background-color: white;
+    list-style: none;
+}
+
+li.panel ul li a {
+    text-decoration: none;
+    color: #733838;
+}
